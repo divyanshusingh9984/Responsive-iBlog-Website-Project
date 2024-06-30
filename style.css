@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    font-family: var(--font1);
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+
+.nav-left ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+
+.content {
+    height: 100%;
+    /* color: white;  */
+    /* background-color: blue; */
+    display: flex;
+    /* background-color: rgb(208,208,243); */
+    padding: 10px;
+    position: relative;
+
+}
+
+.content::after {
+    content: "";
+    background-image: url(https://images.twinkl.co.uk/tw1n/image/private/t_630/image_repo/f0/21/nz-l-2548990-features-of-an-article-powerpoint_ver_1.jpg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.27;
+}
+
+
+.content-left {
+    font-family: var(--font2);
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+
+
+}
+
+.content-right {
+
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.content-right {
+    height: 20px;
+    width: 50px;
+
+}
+
+
+
+
+.home-articles {
+    /* height: 455px; */
+    background-color: rgb(248, 239, 239,0.5);
+    padding: 18px;
+    margin-top: 23px;
+    position: relative;
+}
+
+
+.home-article {
+    display: flex;
+    margin: 25px;
+
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: var(--font1);
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(54, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}

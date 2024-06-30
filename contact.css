@@ -1,0 +1,94 @@
+
+.contact-content {
+    height: 100vh;
+    margin-top:32px ;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url(https://images.twinkl.co.uk/tw1n/image/private/t_630/image_repo/f0/21/nz-l-2548990-features-of-an-article-powerpoint_ver_1.jpg);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: inherit;
+    opacity: 0.75;
+    z-index: -1;
+}
+.max-width-1{
+    margin-left:14px;
+}
+.form-box1 input {
+    width: 66vw;
+    height: 5vw;
+    font-size: 18px;
+    margin-left: 14px;
+    padding-left: 5px;
+    font-family: var(--font2);
+    border: 2px solid #bd6418;
+    border-radius: 10px;
+}
+.form-box2 input {
+    width: 66vw;
+    height: 5vw;
+    margin-left: 14px;
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: var(--font2);
+    border: 2px solid #bd6418;
+    border-radius: 10px;
+}
+.form-box3 input {
+    width: 66vw;
+    height: 5vw;
+    margin-left: 14px;
+    margin-top: 15px;
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: var(--font2);
+    border: 2px solid #bd6418;
+    border-radius: 10px;
+}
+.form-box4 input {
+    width: 66vw;
+    height: 5vw;
+    margin-left: 14px;
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: var(--font2);
+    border: 2px solid #bd6418;
+    border-radius: 10px;
+}
+.form-box5 input {
+    width: 66vw;
+    height: 5vw;
+    margin-left: 14px;
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: var(--font2);
+    border: 2px solid #bd6418;
+    border-radius: 10px;
+}
+.form-box4 textarea {
+    width: 66vw;
+    height: 10vw;
+    margin-left: 14px;
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: var(--font2);
+    border: 2px solid #bd6418;
+    border-radius: 10px;
+}
+.form-box5{
+    margin-left: 14px;
+    margin-top: 15px;  
+    padding-left: 5px;
+    padding-top: 10px;
+}
